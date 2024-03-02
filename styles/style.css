@@ -1,11 +1,11 @@
-/* reset styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* navigation bar styles */
+
 nav {
     display: flex;
     align-items: center;
@@ -14,7 +14,7 @@ nav {
 }
 
 .nav-image {
-    width: 100px; /* Adjust width as needed */
+    width: 100px; 
 }
 
 .logo {
@@ -22,13 +22,13 @@ nav {
     font-weight: bold;
     color: #000;
     text-decoration: none;
-    margin-right: auto; /* Push logo to left on larger screens */
+    margin-right: auto; 
 }
 
 .nav-info {
     display: flex;
     list-style: none;
-    margin-left: 0; /* Remove margin for responsiveness */
+    margin-left: 0;
 }
 
 .nav-info li {
@@ -44,7 +44,7 @@ a:hover {
     color: #333;
 }
 
-/* Additional styling for menu toggle functionality (JavaScript needed) */
+
 .nav-info.active {
     display: flex;
 }
@@ -52,7 +52,7 @@ a:hover {
 
 @media screen and (max-width: 768px) {
     .nav-info {
-        display: none; /* Hide navigation links on small screens */
+        display: none; 
     }
 
     .menu-toggle {
@@ -71,15 +71,15 @@ a:hover {
     }
 }
 
-/* Banner section styles */
+
 .banner {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; /* Align items vertically */
-    padding: 50px 20px; /* Add padding for spacing */
+    flex-direction: column; 
+    padding: 50px 20px; 
     text-align: center;
-    background-image: url("/Images/Group\ 13\ \(1\)\ \(1\).png"); /* Add background image if desired */
+    background-image: url("/Images/Group\ 13\ \(1\)\ \(1\).png"); 
     background-size: cover;
     background-position: center;
 }
@@ -100,8 +100,8 @@ a:hover {
 
 .banner-text form {
     display: flex;
-    flex-wrap: wrap; /* Allow forms to wrap on smaller screens */
-    justify-content: center; /* Center forms horizontally */
+    flex-wrap: wrap;
+    justify-content: center; 
 }
 
 .banner-text input[type="text"],
@@ -126,8 +126,8 @@ a:hover {
     .banner-text form input[type="text"],
     .banner-text form input[type="text"],
     .banner-text button {
-        flex-basis: 100%; /* Each form element takes full width on smaller screens */
-        max-width: none; /* Remove max-width for form elements */
+        flex-basis: 100%; 
+        max-width: none; 
     }
 }
 
@@ -178,7 +178,7 @@ img{
 }
 .description{
     font-weight: bold;
-    text-align: center;
+   
 }
 .text{
     text-align: center;
@@ -191,7 +191,7 @@ img{
 }
 
 .container-1, .container-2, .container-3 {
-    width: calc(50% - 20px); /* 50% width with some margin */
+    width: calc(50% - 20px); 
     margin: 10px;
 }
 
@@ -201,7 +201,7 @@ img{
 
 .container-3 {
     background-color: #333;
-    width: 80%; /* Full width for container 3 */
+    width: 80%; 
 }
 
 .section-1, h2{
@@ -223,20 +223,20 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 20px; /* Adjust padding as needed */
+    padding: 50px 20px;
   }
   
   .subscribe-content {
-    flex-basis: 50%; /* Take up half of the section */
-    padding-right: 20px; /* Add some spacing between content and image */
+    flex-basis: 50%; 
+    padding-right: 20px; 
   }
   
   .subscribe-image {
-    flex-basis: 50%; /* Take up half of the section */
+    flex-basis: 50%; 
   }
   
   .subscribe-form {
-    margin-top: 20px; /* Add some spacing between description and form */
+    margin-top: 20px; 
   }
   
   .subscribe-form input[type="text"] {
@@ -294,6 +294,22 @@ img{
     margin-top: 20px;
     font-size: 0.8rem;
   }
+
+  body {
+    max-width: 1200px;
+    margin: 0 auto; 
+  }
+  
+  /* Adjustments for larger screens */
+  @media screen and (min-width: 992px) {
+    .banner {
+      padding: 100px 20px;
+    }
+    
+    .features {
+      margin-top: 200px; 
+    }
+  }
   
   
   @media screen and (max-width: 768px) {
@@ -312,11 +328,10 @@ img{
   }
   .new{
     color: #000;
-    margin-left: 70px;
   }
   .section-title{
     color: #000;
-    margin-left: 70px;
+    margin: 5px;
   }
   
 
